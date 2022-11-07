@@ -4,7 +4,7 @@ import turtle
 TEXTFILENAME = 'Turtledraw'
 
 f = input('what is the name of file:')
-fa = open(f, "r")
+fa = open(f)
 
 
 screen = turtle.Screen()
@@ -41,7 +41,7 @@ while line:
  
 
 
-
+turtle.write(counter)
 turtle.done()
 fa.close()
 
